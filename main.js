@@ -1,7 +1,8 @@
 // Avvio Vue
 
-const app = new VTTCue(
-    {
-        el: '#root',
+const app = new Vue({
+    el: '#root',
+    data: {
+        message: 'Hello World, Finally on Vue!'
     }
-)
+})
